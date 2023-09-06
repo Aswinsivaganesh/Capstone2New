@@ -1,0 +1,174 @@
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("./assets/images/blue.jpg");
+
+}
+.intro > img {
+    height: 180px;
+    border-radius: 15px;
+}
+h1,p{
+    margin: 0;
+    padding: 0;
+}
+.skills h2{
+    margin: 0;
+}
+.skills{
+    display: flex;
+    gap:20px;
+    justify-content: space-around;
+}
+
+.c-box,.html-box,.bs-box {
+    flex-basis: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: bisque;
+
+}
+.tool{
+     display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.intro > img {
+    height: 180px;
+    border-radius: 15px;
+}
+.skills img{
+     /*float: left;*/
+     /*margin: 20px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.tool img{
+    /*float: left;*/
+    /*margin: 15px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pp img {
+     /*float: left;*/
+     /*margin: 15px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.VS,.CL,.WS{
+    flex-basis: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: burlywood;
+}
+.pp{
+    display: flex;
+   gap: 20px;
+    justify-content: center;
+}
+
+.CC,.vanet{
+    background-color: blanchedalmond;
+    padding: 25px;
+    padding-right:  40px;
+    flex-basis: 500px;
+    border-radius: 20px;
+}
+.res1,.res2{
+    text-decoration: none;
+    text-align: center;
+}
+html>*{
+    font-family: 'Montserrat', sans-serif;
+}
+.intro > div >*{
+    color: white;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+@media (max-width: 900px){
+    .intro{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        width: 90%; margin: auto
+    }
+    .skills img{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .tool img{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .pp img{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .intro > img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .c-box,.html-box,.bs-box {
+        flex-basis: 00px;
+        padding: 25px;
+        border-radius: 20px;
+        background-color: bisque;
+
+    }
+    .tool{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    .VS,.CL,.WS{
+        flex-basis: 00px;
+        padding: 25px;
+        border-radius: 20px;
+        background-color: burlywood;
+    }
+    .pp{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .CC,.vanet{
+        background-color: blanchedalmond;
+        padding: 25px;
+        padding-right:  40px;
+        flex-basis: 00px;
+        border-radius: 20px;
+    }
+    .name{
+        text-align: center;
+    }
+}
